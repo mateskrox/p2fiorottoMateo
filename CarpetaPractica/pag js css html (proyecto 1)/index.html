@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,    initial-scale=1.0">
+    <title>Mateo Fiorotto: Proyect 1 (Form Example)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="title">Apply for a position</h1>
+        <p id="paragraph1">This is an example for a postulation form in a software company</p>
+    </header>
+    <form>
+        <div>
+            <label id="name-label" for="name" id="name" class="titleform">Name</label>
+            <input class="input1" type="text" id="name-label" name="name"placeholder="Write your name here...">
+            <label id="email-label" for="email" id="email" class="titleform">Email</label>
+            <input class="input1" type="email" id="email-label" name="email" placeholder="Write your email here...">
+            <label id="number-label" for="number" id="number" class="titleform">Age</label>
+            <input class="input1" type="number" id="number-label" min="1" max="100" name="age" placeholder="Age...">
+            <label id="experience" for="exp" class="titleform">Position and Experience</label>
+            <select id="dropdown1" name="position">
+                <option disabled selected value>Select an option...</option>
+                <option value="webdesign" name="webdesign">Web Designer</option>
+                <option value="datascience" name="datascientist">Data Scientist</option>
+                <option value="dbadmin" name="dbadmin">Databases Administrator</option>
+                <option value="student" name="student">Student</option>
+                <option value="other" name="other">Other</option>
+            </select>
+            <select id="dropdown2" name="experience">
+                <option disabled selected value>Select an option...</option>
+                <option value="None" name="none">None</option>
+                <option value="onetwo" name="onetwo">1-2 years</option>
+                <option value="threefour" name="threefour">3-4 years</option>
+                <option value="fiveormore" name="fiveormore">5 or more years</option>
+            </select>
+        </div>
+        <div class="inputs1" method="post">
+            <label class="titleform" id="gender" for="gnd">Gender</label>
+            <input type="radio" name="gend" value="male" required>
+            <p>Male</p>
+            <br>
+            <input type="radio"  name="gend" value="female" required>
+            <p>Female</p>
+            <br>
+            <input type="radio" name="gend" value="other" required>
+            <p>Other</p>
+        </div>
+        <div class="inputs1" method="post">
+            <label id="Country" for="cnt" class="titleform">Country</label>
+            <input class="arg" type="radio" name="countries" value="Argentina" required>
+            <p class="arg">Argentina</p>
+            <br>
+            <input class="br" type="radio" name="countries" value="Brasil" required>
+            <p class="br">Brasil</p>
+            <br>
+            <input class="uru" type="radio" name="countries" value="Uruguay" required>
+            <p class="uru">Uruguay</p>
+            <br>
+            <input class="chl" type="radio" name="countries" value="Chile" required>
+            <p class="chl">Chile</p>
+            <br>
+            <input class="oth" type="radio" name="countries" value="Other" required>
+            <p class="oth">Other</p>
+        </div>
+        <div>
+            <br>
+            <label id="COM" for="COM">Comments</label>
+            <textarea name="coments"></textarea>
+        </div>
+        <input type="submit" id="submit2" onclick="funct()"></button>
+    </form>
+</body>
+</html>
