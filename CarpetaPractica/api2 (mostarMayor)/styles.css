@@ -1,0 +1,29 @@
+html {
+    background-color: #c1955c;
+}
+
+body {
+    padding: 50px;
+}
+
+div {
+    width: 50%;
+    background-color: burlywood;
+    text-align: center;
+    min-height: 500px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div p, h1 {
+    font-family: sans-serif;
+}
+
+#msjfin1, #msjfin2 {
+    font-family: sans-serif;
+    font-size: 24px;
+    color: greenyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+}
