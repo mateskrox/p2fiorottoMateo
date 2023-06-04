@@ -1,0 +1,14 @@
+{
+  "paises": [
+    {
+      "id": 1,
+      "nombre": "ARG",
+      "capital": "BsAs"
+    },
+    {
+      "id": 2,
+      "nombre": "BRA",
+      "capital": "Rio"
+    }
+  ]
+}
